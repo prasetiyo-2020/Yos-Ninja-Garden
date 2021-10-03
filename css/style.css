@@ -35,7 +35,7 @@ hr {
 }
 
 section {
-  min-height: 600px;
+  min-height: 500px;
 }
 
 .about {
@@ -105,4 +105,12 @@ footer p {
   text-align: center;
   color: #aaa;
   font-size: 1em;
+}
+
+@media only screen and (max-width: 600px) {
+  .jumbotron img {
+    margin-top: 30px;
+    width: 200px;
+    border: 5px solid #ffffff;
+  }
 }
